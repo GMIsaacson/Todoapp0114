@@ -1,10 +1,10 @@
 import "./styles.css";
-import ToDo from "./todo";
+import ToDolocalstorage from "./todolocastorage";
 
 export default function App() {
   return (
     <div className="App">
-      <ToDo />
+      <ToDolocalstorage />
     </div>
   );
 }
